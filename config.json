@@ -1,0 +1,58 @@
+{
+    "include": [
+        { "path": "User/setting.json", "optional": true }
+    ],
+    "application": {
+        "uuid": "b2313cf6-f711-440a-b057-b3da4bab1858",
+        "single_instance": true
+    },
+    "debug": {
+        "track_window_focus": false
+    },
+    "logging": {
+        "debugger": {
+            "enable": true,
+            "threshold": "debug"
+        },
+        "console": {
+            "enable": false,
+            "threshold": "debug",
+            "preserve": true
+        },
+        "file": {
+            "enable": true,
+            "threshold": "info",
+            "path": "engine.log"
+        },
+        "rolling_file": {
+            "enable": false,
+            "threshold": "info",
+            "path": "log/",
+            "max_history": 10
+        }
+    },
+    "file_system": {
+        "resources": [],
+        "user": "User/"
+    },
+    "timing": {
+        "frame_rate": 60
+    },
+    "window": {
+        "title": "Touhou Roguelike",
+        "cursor_visible": true,
+        "allow_window_corner": true
+    },
+    "graphics_system": {
+        "preferred_device_name": "",
+        "width": 1280,
+        "height": 720,
+        "fullscreen": false,
+        "vsync": false
+    },
+    "audio_system": {
+        "preferred_endpoint_name": "",
+        "sound_effect_volume": 1.0,
+        "music_volume": 1.0
+    }
+}

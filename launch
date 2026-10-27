@@ -1,0 +1,9 @@
+﻿random = nil -- 从全局变量中去除内置的 random 库
+
+for _, f in ipairs({"mod.dat", "core.dat","assets.dat"}) do
+    if lstg.FileManager.FileExist(f) then
+        lstg.LoadPackSub(f)
+    end
+end
+
+lstg.DoFile("launch.lua")

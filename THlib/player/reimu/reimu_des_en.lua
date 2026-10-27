@@ -1,0 +1,15 @@
+return {
+    name = "Hakurei Reimu",
+    subname = "Paradise Miko",
+    Talent1name = "Minute Precision",
+    Talent1des = [[Restore §g0.4§d /hp/s]],
+    Talent2name = "Poem in Five Steps",
+    Talent2des = [[When level is a §bmultiple of 5§d,
+the /exp for Upgrading is fixed at §g25§d.]],
+    Talent3name = "Things yet not Things",
+    Talent3des = [[When obtaining /benefit,
+gain an identical /benefit.]],
+    spelldes = [[Shoot §g%d§d super large tracking LIGHT BALLs to attack enemies,
+each LIGHT BALLS causes an expected dmg of §g%d%%§d of /atk,
+and grants §g%0.2f§d secs of /inv.]],
+}
